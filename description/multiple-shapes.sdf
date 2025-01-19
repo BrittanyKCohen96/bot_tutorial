@@ -1,0 +1,92 @@
+<sdf version='1.11'>
+  <model name='multipleshapes'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0 0 -0.033333333333333333 0 0 0</pose>
+        <mass>1.5</mass>
+        <inertia>
+          <ixx>0.10006666666666671</ixx>
+          <ixy>0</ixy>
+          <ixz>1.632862398863138e-18</ixz>
+          <iyy>0.054166666666666662</iyy>
+          <iyz>0</iyz>
+          <izz>0.062566666666666659</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0.14999999999999999 0 0.074999999999999997 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.59999999999999998</length>
+            <radius>0.20000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__left_leg_collision_1'>
+        <pose>0 0.22 -0.049999999999999989 0 1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.59999999999999998 0.10000000000000001 0.20000000000000001</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__right_leg_collision_2'>
+        <pose>0 -0.22 -0.049999999999999989 0 1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.59999999999999998 0.10000000000000001 0.20000000000000001</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.59999999999999998</length>
+            <radius>0.20000000000000001</radius>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__left_leg_visual_1'>
+        <pose>0 0.22 -0.049999999999999989 0 1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.59999999999999998 0.10000000000000001 0.20000000000000001</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__right_leg_visual_2'>
+        <pose>0 -0.22 -0.049999999999999989 0 1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.59999999999999998 0.10000000000000001 0.20000000000000001</size>
+          </box>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <ambient>1 1 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+    <frame name='base_to_left_leg' attached_to='base_link'>
+      <pose>0 0.22 0.25 0 0 0</pose>
+    </frame>
+    <frame name='left_leg' attached_to='base_to_left_leg'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='base_to_right_leg' attached_to='base_link'>
+      <pose>0 -0.22 0.25 0 0 0</pose>
+    </frame>
+    <frame name='right_leg' attached_to='base_to_right_leg'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>
