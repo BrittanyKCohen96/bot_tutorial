@@ -1,0 +1,1 @@
+/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial/ament_cmake_environment_hooks/local_setup.bash

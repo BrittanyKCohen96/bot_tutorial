@@ -1,0 +1,61 @@
+[0.026s] Invoking command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brittc/bot_tut/src/bot_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial
+[0.292s] -- The C compiler identification is GNU 11.4.0
+[0.778s] -- The CXX compiler identification is GNU 11.4.0
+[1.065s] -- Detecting C compiler ABI info
+[1.186s] -- Detecting C compiler ABI info - done
+[1.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.193s] -- Detecting C compile features
+[1.194s] -- Detecting C compile features - done
+[1.199s] -- Detecting CXX compiler ABI info
+[1.340s] -- Detecting CXX compiler ABI info - done
+[1.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.348s] -- Detecting CXX compile features
+[1.348s] -- Detecting CXX compile features - done
+[1.358s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.490s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.603s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.695s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.704s] -- Configured cppcheck include dirs: 
+[1.704s] -- Configured cppcheck exclude dirs and/or files: 
+[1.709s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.709s] -- Configured cpplint exclude dirs and/or files: 
+[1.711s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.714s] -- Added test 'lint_cmake' to check CMake code style
+[1.716s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.721s] -- Added test 'uncrustify' to check C / C++ code style
+[1.721s] -- Configured uncrustify additional arguments: 
+[1.723s] -- Added test 'xmllint' to check XML markup files
+[1.726s] -- Configuring done
+[1.732s] -- Generating done
+[1.734s] -- Build files have been written to: /home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial
+[1.742s] Invoked command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/brittc/bot_tut/src/bot_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial
+[1.742s] Invoking command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial -- -j8 -l8
+[1.773s] Invoked command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial -- -j8 -l8
+[1.782s] Invoking command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial
+[1.787s] -- Install configuration: ""
+[1.787s] -- Execute custom install script
+[1.789s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/config/empty.yaml
+[1.797s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/description/inertial_macros.xacro
+[1.804s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/description/robot.urdf
+[1.812s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/description/robot.urdf.xacro
+[1.820s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/description/robot_core.xacro
+[1.828s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/launch/rsp.launch.py
+[1.836s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/worlds/empty.world
+[1.844s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/ament_index/resource_index/package_run_dependencies/bot_tutorial
+[1.851s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/ament_index/resource_index/parent_prefix_path/bot_tutorial
+[1.859s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/environment/ament_prefix_path.sh
+[1.866s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/environment/ament_prefix_path.dsv
+[1.874s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/environment/path.sh
+[1.881s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/environment/path.dsv
+[1.888s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/local_setup.bash
+[1.895s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/local_setup.sh
+[1.902s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/local_setup.zsh
+[1.909s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/local_setup.dsv
+[1.917s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/package.dsv
+[1.925s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/ament_index/resource_index/packages/bot_tutorial
+[1.932s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/cmake/bot_tutorialConfig.cmake
+[1.939s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/cmake/bot_tutorialConfig-version.cmake
+[1.947s] -- Symlinking: /home/brittc/bot_tut/src/bot_tutorial/install/bot_tutorial/share/bot_tutorial/package.xml
+[1.956s] Invoked command in '/home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/brittc/bot_tut/src/bot_tutorial/build/bot_tutorial
